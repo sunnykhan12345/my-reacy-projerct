@@ -1,0 +1,90 @@
+/* conatct css */
+#contact{
+
+    padding: 48px 0;
+
+    .wrapper_conatct{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 64px;
+        flex-wrap: wrap;
+
+
+        @media(max-width:62rem){
+             justify-content: center;
+        }
+        @media(max-width:62rem){
+            flex-direction: column;
+       }
+
+       .contact_col{
+        width: calc(100%/2 - 16px);
+        padding: 16px;
+        box-sizing: border-box;
+
+        
+
+        & h2{
+            padding-top: 48px;
+        }
+
+        @media(max-width:62rem){
+           width: 50%;
+       }
+       @media(max-width:47.9375rem){
+             width:100%;
+          
+      }
+    } 
+
+       .input_wrapper{
+        width: 100%;
+        display: flex;
+
+        .form_control{
+            width: 100%;
+            background-color: transparent;
+            border: 1.1424px solid var(--white-color);
+            color:var(--white-color);
+            font-size: 17.1424px;
+            font-weight: 400;
+            padding: 11.4288px 22.8576px;
+            border-radius: 9.1424px;
+            margin-bottom: 48px;
+
+            
+        }
+        .form_control:hover,
+        & textarea:hover,
+        .form_control:focus,
+        & textarea:focus{
+            border: 1.1424px solid var(--primary-color);
+        }
+
+        & textarea{
+            width: 100%;
+            display: block;
+            background-color: transparent;
+            border: 1.1424px solid var(--white-color);
+            color:var(--white-color);
+            font-size: 17.1424px;
+            font-weight: 400;
+            padding: 11.4288px 22.8576px;
+            border-radius: 9.1424px;
+            min-height: 114.2864px;
+        }
+        
+       }
+    }
+}
+
+
+span{
+ 
+    font-weight: 700;
+    align-items: center;
+   
+}
+
+

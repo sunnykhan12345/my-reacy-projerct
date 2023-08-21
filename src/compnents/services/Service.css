@@ -1,0 +1,112 @@
+/* service css */
+
+#services{
+    padding: 8rem 0 3rem;
+    background:url("../../Images/svg.png") no-repeat center center;
+    background-size: cover;
+    position: relative;
+
+     @media(max-width:992px){
+
+     }
+
+
+     .service_wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 5rem;
+
+        .service_box{
+            width: calc(100%/3 - 2rem);
+            padding: 2.8571rem 2.1429rem;
+            border-radius: 1.4286rem;
+            background-color: var(--bg-dark-color);
+            box-sizing: border-box;
+            margin-bottom: 3rem;
+            position: relative;
+            z-index: 3;
+
+            @media(max-width:992px){
+                width: calc(100%/2 - 1rem);
+            }
+            
+            @media(max-width:767px){
+                width: 100%;
+            }
+        }
+
+        .number{
+           position: absolute;
+           font-size:4.2857rem;
+           line-height: 4.2857rem;
+           right: 2.2857rem;;
+           top: 2.142rem;
+           opacity: .07;
+           margin: 0;
+           transition: all 0.3s ease-in-out;
+
+          
+        }
+
+        .service_icon{
+            font-size:2.2857rem;
+            width: 5rem;
+            height: 5rem;
+            line-height: 5rem;
+            border-radius: 50%;
+            color: var(--primary-color);
+            background: var(----primary-bg);
+            text-align: center;
+
+            &.blue_icon{
+                color: var(--blue-color);
+                /* background:var(--blue-color-bg); */
+            }
+            &.red_icon{
+                color: var(--primary-color);
+                /* background:var(--primary-nav-color); */
+            }
+            &.green_icon{
+                color: var(--green-color);
+                /* background:var(--primary-nav-color); */
+            }
+
+          
+            
+
+           }
+           & h5{
+            font-weight: 600;
+            color:var(--white-color);
+            font-size: 1.7143rem;
+            line-height: 2.8286rem;
+        }
+        & p{
+           font-size: 1.2143rem;
+           line-height: 2rem;
+           color: var(--font-color);
+           font-weight: 500;
+        }
+        .Read{
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--white-color);
+            margin-top: 2.429rem;
+            display: inline-block;
+            text-transform: capitalize;
+        }
+      
+     }
+
+}
+.service_icon{
+    font-size:2.2857rem;
+    width: 5rem;
+    height: 5rem;
+    line-height: 5rem;
+    border-radius: 50%;
+    color: var(--primary-color);
+    background: var(----primary-bg);
+   }
