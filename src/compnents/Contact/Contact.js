@@ -1,7 +1,6 @@
 import React,{useState} from 'react';
 import "./Contact.css";
 import conatcimg from '../../Images/office.jpg';
-
 const emregex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
 const number ='1234567890';
@@ -33,7 +32,6 @@ const handleName = (e) =>{
          setEmailError(false)    
           }
      }
-
      const handlePhone = (e) => {
       setPhone(e.target.value)
       if(!phone.match( number)){
@@ -56,8 +54,10 @@ const handleName = (e) =>{
                 <h2>Contact Us</h2>
                 <form>
                   <div className='input_wrapper'>
+            
                     <input type='text' name='name' value={name} onChange={handleName} className='form_control' placeholder='Your Name...' autoComplete='off'/>
                   </div>
+              
                     {nameError ?<span style={{color:"var(--primary-color)"}}>Name must be greather than 3 char...</span>:""}
                   <div className='input_wrapper'>
                     <input type='email' name='name' value={phone} onChange={handlePhone} className='form_control' placeholder='Your Phone...' autoComplete='off'/>
