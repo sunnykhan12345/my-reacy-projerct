@@ -1,6 +1,5 @@
 import React from 'react';
 import './Service.css';
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLaptopCode,faChartBar,faCopy,faMarker,faUserGear,faCoins } from '@fortawesome/free-solid-svg-icons';
 
@@ -20,8 +19,9 @@ const Service = () => {
                 <p>Lorem ipsum some text copy here to put on this paragraph we select defferent questions here .</p>
             </div>
             <div className='service_wrapper'>
-                <div className='service_box'>
+                <div  className='service_box'>
                     <div className='service_icon blue_icon '>{faLaptopCodeIcon}</div>
+                  
                     <h4 className='number'>01</h4>
                     <div className="service_content">
                         <h5>Cloud Computing</h5>

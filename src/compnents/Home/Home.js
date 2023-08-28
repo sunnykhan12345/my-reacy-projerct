@@ -9,7 +9,7 @@ export default function Home() {
   const faShieldIcon = <FontAwesomeIcon icon={faShieldHalved } />
   const faChartAreaIcon = <FontAwesomeIcon icon={faChartArea  } />
   return (
-    <section id='home'>
+    <section  id='home'>
        <div className='banner_image'></div>
        <div className='container'>
           <div className='banner_outer'>
